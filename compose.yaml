@@ -1,4 +1,3 @@
-service:
   coturn:
     image: coturn/coturn
     restart: unless-stopped
