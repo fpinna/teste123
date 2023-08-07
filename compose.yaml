@@ -1,6 +1,6 @@
 services:
   coturn:
-    image: coturn/coturn
+    image: coturn/coturn:alpine
     restart: unless-stopped
     domainname: netbird.relay.selfhosted
     volumes:
