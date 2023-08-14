@@ -1,10 +1,1 @@
-services:
-  coturn:
-    image: coturn/coturn:alpine
-    restart: unless-stopped
-    domainname: netbird.relay.selfhosted
-    volumes:
-      - ./turnserver.conf:/etc/turnserver.conf:ro
-    network_mode: host
-    command:
-      - -c /etc/turnserver.conf
+
